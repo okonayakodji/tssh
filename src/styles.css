@@ -1,0 +1,23 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+#settings {
+  display: grid;
+  grid-gap: 25px;
+  grid-template: "1 2" "3 4";
+  grid-template-rows: 1fr 1rf;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 25px;
+}
+
+#textfields {
+  display: grid;
+  grid-gap: 25px;
+  grid-template: "1 2" "3 4";
+  grid-template-rows: 1fr 1rf;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 25px;
+}
